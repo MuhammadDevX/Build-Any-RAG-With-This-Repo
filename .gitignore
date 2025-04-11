@@ -1,0 +1,11 @@
+myenv
+
+acts
+
+test
+
+*.csv
+
+*.py
+
+.env
