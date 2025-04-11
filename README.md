@@ -4,7 +4,7 @@ Follow the following steps:
 1. First clone the project
 2. Create your python virtual environment
 3. On the terminal run 'pip install -r requirements.txt' 
-4. Create your database in pinecone on https://www.pinecone.io (The number of vectors for the gpt model should be seen based on the vector embeddings model used. The one that I have used has 1536)
+4. Create your database in pinecone on https://www.pinecone.io (The number dimensions is based on the embedding model used. The one that I have used has 1536 as the dimenstion for vectors)
 5. Copy the Url for your database and add it to your .env file by the name PINECONE_API_KEY
 6. Create an api key for openai and save it in your .env file by the name OPENAI_API_KEY
 7. Add the index name to your .env file as well by the name INDEX_NAME (based on what you named from pinecone)
