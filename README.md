@@ -10,4 +10,4 @@ Follow the following steps:
 7. Add the index name to your .env file as well by the name PINECONE_INDEX_NAME (based on what you named from pinecone)
 8. Run the commands one by one for getting your database
 
-Well done you have just created your own pinecone database and used a frontier model over it to response according to the provided context. PLEASE STAR THIS REPO 
+Well done you have just created your own pinecone database and used a frontier model over it to respond according to the asked question. PLEASE STAR THIS REPO 
