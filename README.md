@@ -7,7 +7,7 @@ Follow the following steps:
 4. Create your database in pinecone on https://www.pinecone.io (The number dimensions is based on the embedding model used. The one that I have used has 1536 as the dimenstion for vectors)
 5. Copy the Url for your database and add it to your .env file by the name PINECONE_API_KEY
 6. Create an api key for openai and save it in your .env file by the name OPENAI_API_KEY
-7. Add the index name to your .env file as well by the name INDEX_NAME (based on what you named from pinecone)
+7. Add the index name to your .env file as well by the name PINECONE_INDEX_NAME (based on what you named from pinecone)
 8. Run the commands one by one for getting your database
 
 Well done you have just created your own pinecone database and used a frontier model over it to response according to the provided context. PLEASE STAR THIS REPO 
